@@ -19,14 +19,9 @@
 <p>If you are reading this, it is because your browser does not support the audio element.     </p>
 </audio>
 <p style="text-align: center;">
-	<script type="text/javascript">
+	<script>
 		document.write("<img src = \"" + Math.floor(1+ Math.random() * 10) + ".jpg\" />");
-	</script>
-</p>
-
- </body>
- <script>
- 	var brd = document.createElement("DIV");
+		var brd = document.createElement("DIV");
 	document.body.insertBefore(brd, document.getElementById("board"));
 	const duration = 3000;
 	const speed = 0.5;
@@ -107,6 +102,12 @@ function check()
    }
 }
 
+	</script>
+</p>
+
+ </body>
+ <script>
+ 	
 
  </script>
 </html>
